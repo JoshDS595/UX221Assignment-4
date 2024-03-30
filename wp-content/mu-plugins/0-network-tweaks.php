@@ -8,7 +8,7 @@ add_filter( 'allowed_redirect_hosts', function( $deprecated = '' ) {
         'downloads.wordpress.org',
     );
 } );
-// Clean up admin home page
+// Needed to speed up admin home page
 add_action('admin_init', function(){
 remove_action('welcome_panel', 'wp_welcome_panel');
 

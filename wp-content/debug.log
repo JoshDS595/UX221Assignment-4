@@ -1,1 +1,95 @@
-[30-Mar-2024 14:56:34 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[08-Mar-2024 17:41:52 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /wordpress/wp-includes/update.php on line 2
+[08-Mar-2024 17:41:54 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /wordpress/wp-admin/includes/translation-install.php on line 2
+[08-Mar-2024 17:42:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /wordpress/wp-admin/includes/translation-install.php on line 2
+[08-Mar-2024 17:42:40 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /wordpress/wp-admin/includes/translation-install.php on line 2
+[08-Mar-2024 17:42:46 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /wordpress/wp-includes/update.php on line 2
+[11-Mar-2024 23:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_convert_encoding() in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/product-ajax.php:163
+Stack trace:
+#0 /wordpress/wp-includes/class-wp-hook.php(3): ic_catalog_ajax->ajax_self_submit('')
+#1 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters('', Array)
+#2 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#3 /wordpress/wp-admin/admin-ajax.php(2): do_action('wp_ajax_ic_self...')
+#4 {main}
+  thrown in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/product-ajax.php on line 163
+[12-Mar-2024 21:50:36 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 21:50:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 20
+[12-Mar-2024 21:50:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  <() in /wordpress/wp-includes/http.php:2
+Stack trace:
+#0 /wordpress/wp-includes/pluggable.php(2): wp_parse_url('https://playgro...', 1)
+#1 /wordpress/wp-includes/class-wp-recovery-mode-email-service.php(20): wp_mail(Array, '[Games 4 U] You...', 'Howdy!\n\nWordPre...', Array, Array)
+#2 /wordpress/wp-includes/class-wp-recovery-mode-email-service.php(3): WP_Recovery_Mode_Email_Service->send_recovery_mode_email(86400, Array, Array)
+#3 /wordpress/wp-includes/class-wp-recovery-mode.php(3): WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email(86400, Array, Array)
+#4 /wordpress/wp-includes/class-wp-fatal-error-handler.php(3): WP_Recovery_Mode->handle_error(Array)
+#5 [internal function]: WP_Fatal_Error_Handler->handle()
+#6 {main}
+  thrown in /wordpress/wp-includes/http.php on line 2
+[12-Mar-2024 21:52:36 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 21:54:36 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 21:56:36 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 22:07:16 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 22:08:15 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 22:10:15 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 22:12:15 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 22:14:15 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[12-Mar-2024 22:20:18 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 12:34:46 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 12:35:46 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 12:37:46 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 12:39:46 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 12:41:46 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 12:43:47 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:39:35 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:40:34 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:42:34 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:44:03 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:45:03 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:47:03 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:49:03 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:51:03 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:53:03 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 13:55:03 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 17:22:59 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 17:24:57 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 17:26:57 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 17:28:57 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 17:30:57 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[13-Mar-2024 17:32:57 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:06:22 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:06:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 20
+[14-Mar-2024 14:06:22 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 32768 bytes) in /wordpress/wp-includes/PHPMailer/PHPMailer.php on line 2
+[14-Mar-2024 14:07:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:09:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:11:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:13:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:15:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:16:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:18:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:20:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:22:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:24:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:26:20 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[14-Mar-2024 14:28:46 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/footer.php on line 9
+[18-Mar-2024 23:33:13 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[19-Mar-2024 00:07:56 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[19-Mar-2024 00:14:23 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:00:27 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:04:26 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:05:25 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:05:32 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:05:42 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:06:22 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:06:38 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:06:44 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:14:27 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:30:30 UTC] PHP Deprecated:  Function get_currentuserinfo is deprecated since version 4.5.0! Use wp_get_current_user() instead. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:30:30 UTC] PHP Warning:  Undefined variable $parent_theme_name in /wordpress/wp-content/plugins/one-click-child-theme-main/templates/create_child_form.php on line 18
+[30-Mar-2024 15:30:51 UTC] PHP Deprecated:  Function get_current_theme is deprecated since version 3.4.0! Use wp_get_theme() instead. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:30:52 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:36:36 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php on line 51
+[30-Mar-2024 15:36:36 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php on line 51
+[30-Mar-2024 15:36:36 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php on line 51
+[30-Mar-2024 15:36:36 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php on line 51
+[30-Mar-2024 15:36:36 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php on line 51
+[30-Mar-2024 15:36:37 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/banner-hero.php on line 51
+[30-Mar-2024 15:47:24 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[30-Mar-2024 15:47:39 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
