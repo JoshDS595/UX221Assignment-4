@@ -99,3 +99,24 @@ Stack trace:
 [31-Mar-2024 15:36:59 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
 [31-Mar-2024 15:40:34 UTC] PHP Notice: A feed could not be found at `https://wordpress.org/`; the status code is `400` and content-type is `text/plain` in /wordpress/wp-includes/class-simplepie.php on line 2
 [31-Mar-2024 15:41:27 UTC] PHP Notice: A feed could not be found at `https://wordpress.org/`; the status code is `400` and content-type is `text/plain` in /wordpress/wp-includes/class-simplepie.php on line 2
+[31-Mar-2024 16:28:08 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[31-Mar-2024 16:36:11 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[31-Mar-2024 16:37:13 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[31-Mar-2024 16:42:26 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 16384 bytes) in /wordpress/wp-admin/includes/ajax-actions.php on line 2
+[31-Mar-2024 16:42:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-includes/functions.php on line 2
+[31-Mar-2024 16:43:11 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-includes/functions.php on line 2
+[31-Mar-2024 16:43:21 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-includes/functions.php on line 2
+[31-Mar-2024 16:43:26 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/themes/twentytwentyfour/patterns/cta-pricing.php on line 98
+[31-Mar-2024 16:43:26 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 28672 bytes) in /wordpress/wp-admin/includes/plugin.php on line 2
+[31-Mar-2024 16:43:33 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-admin/includes/class-wp-site-health.php on line 3
+[01-Apr-2024 21:12:50 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 21:13:00 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 23:09:05 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 23:10:49 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 23:10:51 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 23:11:07 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 23:11:12 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 23:11:13 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[01-Apr-2024 23:15:00 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[02-Apr-2024 14:42:03 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
+[02-Apr-2024 14:42:07 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 140
